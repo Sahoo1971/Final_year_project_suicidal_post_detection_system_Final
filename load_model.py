@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DROPBOX_DIRECT_URL = os.getenv("DROPBOX_DIRECT_URL")  # Must end with ?dl=1
-LOCAL_MODEL_PATH = "model.keras"
+LOCAL_MODEL_PATH = "model.h5"
 
 def download_model_from_dropbox():
     if not os.path.exists(LOCAL_MODEL_PATH):
