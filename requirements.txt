@@ -11,5 +11,5 @@ python-dotenv==1.0.0
 lxml_html_clean==0.4.2
 dropbox
 requests
-
+gdown
 
